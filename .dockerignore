@@ -1,0 +1,17 @@
+.git
+.gitignore
+**/node_modules/
+*.log
+debug_*.txt
+debug_*.json
+dev-php-server.bat
+scripts/
+package.json
+package-lock.json
+# Old frontend build copied into backend — not needed for the API image (~250MB)
+assets/
+index.html
+# Secrets — use Railway Variables (BREVO_API_KEY), not files in the image
+email_notify.php
+database.php
+

@@ -1,0 +1,11 @@
+{
+  "name": "webfiles-php-dev",
+  "private": true,
+  "description": "Local PHP dev only. Document root is this folder (contact.php, api.php, …).",
+  "scripts": {
+    "php:serve:8080": "php -S 127.0.0.1:8080 -t .",
+    "build": "node scripts/backend-build.js",
+    "lint:php": "node scripts/php-lint.js",
+    "docker:run": "docker run --rm -p 8788:8080 -e PORT=8080 web-backend:local"
+  }
+}

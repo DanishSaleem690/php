@@ -1,0 +1,11 @@
+# Deploy this folder as the Railway service root (Settings → Root Directory: backend)
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+# Minimal probe (no DB). Use /contact_health.php in browser for DB diagnostics.
+healthcheckPath = "/health.php"
+# Root / serves index.php (API info JSON). Frontend is on Netlify.
+healthcheckTimeout = 180
+restartPolicyType = "ON_FAILURE"

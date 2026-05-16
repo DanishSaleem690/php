@@ -1,0 +1,8 @@
+INSERT INTO candidate_dtl (
+        FIRST_NAME, LAST_NAME, FATHER_NAME, GENDER, EMAIL, CNIC, DOB, PHONE, ADDRESS,
+        STATE, CITY, POSTAL_CODE, EDU_YEAR, GRADE, DEGREE, INSTITUTE, APP_ID,
+        PREV_EXP, COMPANY_NAME, PREV_SALARY, NEW_SALARY, created_date, cv_path, job_desc, current_desig
+    ) VALUES (
+        'Farhan', 'Kirmani', 'Fahim ullah kirmani ', 'M', 'Farhankirmani@live.com', '3520015122829', '74-02-23', '03008481813', '94 chanab block Allama Iqbal town lahore',
+        'PUNJAB', 'Lahore', 54570, '1996', 'B', 'B. Com', 'Punjab university ', 33,
+        25, 'American Safety', 420000, 500000, NOW(), 'https://klashpvt.com/upload/687a1c120e36b_Prof_Resume_(farhan_Kirmani)_2024 2.pdf', 'To maintain high-quality standards throughout every stage of the fabric production process, we implemented a comprehensive quality control system that included random sampling for assurance at various points in production. This approach helped us identify any issues early on and ensured that only the best products were packed and shipped. Additionally, we provided thorough training for our workers, equipping them with the necessary skills and knowledge to operate effectively within the system. This training covered quality assurance protocols, equipment operation, and troubleshooting techniques, ensuring that the production process ran smoothly and efficiently. By prioritizing both quality control and worker development, we aimed to enhance our overall productivity and customer satisfaction.', 'GM Quality ')
